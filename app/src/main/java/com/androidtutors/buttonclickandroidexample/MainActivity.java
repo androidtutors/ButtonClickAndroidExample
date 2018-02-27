@@ -12,8 +12,10 @@ public class MainActivity extends AppCompatActivity {
     private Button clickButton;
 
     //TODO 5 : Add Button variable with name revertButton
+    private Button revertButton;
 
     //TODO 7 : Add a string constant revertString
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -24,8 +26,9 @@ public class MainActivity extends AppCompatActivity {
         clickButton = findViewById(R.id.button_change);
 
         //TODO 8 : Set revertString to helloTextView's text
-
+        
         //TODO 6 : Use findViewById to link revertButton to Button button_revert
+        revertButton = findViewById(R.id.button_revert);
 
         //TODO 9 : Add setOnClickListener on revertButton and set textview_hello to revertString
 
