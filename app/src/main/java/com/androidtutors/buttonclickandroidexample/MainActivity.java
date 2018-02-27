@@ -32,8 +32,8 @@ public class MainActivity extends AppCompatActivity {
 
     }
 
-    //TODO 2 : Create a method changeTextOnClick with no return value
-    //TODO 3 : Change the text of textview_hello to "Learning Kotlin" inside the method
+        //TODO 2 : Create a method changeTextOnClick with no return value
+        //TODO 3 : Change the text of textview_hello to "Learning Kotlin" inside the method
     public void changeTextOnClick(View v){
         helloTextView.setText("Learning Kotlin");
     }
