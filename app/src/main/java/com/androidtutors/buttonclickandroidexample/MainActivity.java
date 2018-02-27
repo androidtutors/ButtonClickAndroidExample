@@ -32,7 +32,12 @@ public class MainActivity extends AppCompatActivity {
         revertButton = findViewById(R.id.button_revert);
 
         //TODO 9 : Add setOnClickListener on revertButton and set textview_hello to revertString
-
+        revertButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                helloTextView.setText(revertString);
+            }
+        });
 
     }
 
