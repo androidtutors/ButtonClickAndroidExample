@@ -16,7 +16,7 @@
         android:layout_margin="16dp"
         android:layout_gravity="center"/>
 
-
+    <!-- TODO 1 : Add onClick attribute to button_change and set it to changeTextOnClick -->
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -24,10 +24,11 @@
         android:text="Change"
         android:textSize="20sp"
         android:layout_margin="16dp"
-        android:layout_gravity="center" />
+        android:layout_gravity="center"
+        android:onClick="changeTextOnClick"/>
 
     <!-- TODO 4 : Add a button with text "Revert" and id button_revert with same attributes as button_change -->
-    <!-- TODO 1 : Add onClick attribute to button_change and set it to changeTextOnClick -->
+
 
 
 </LinearLayout>
